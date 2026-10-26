@@ -1,0 +1,15 @@
+# Rust
+/target/
+
+# Secretos (ROBLOX_API_KEY)
+.env
+.env.*
+!.env.example
+
+# Salida de `ropacker build` si se prueba dentro del repo
+/build/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
