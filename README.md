@@ -54,4 +54,4 @@ Límites de Roblox: 30 publicaciones por minuto; 5 tareas de Luau por minuto, de
 cargo test
 ```
 
-También se puede usar como librería (`ropacker::{tree, rbxlx, cloud, config}`): los errores vuelven como `anyhow::Result`, no cierran el proceso.
+También se puede usar como librería (`ropacker::{tree, rbxlx, cloud, config}`): los errores vuelven como `anyhow::Result`, no cierran el proceso. `ropacker::cli` trae los comandos listos para meterlos en otro CLI con `#[command(flatten)]` (así los incluye `jazz`, el de jazz-engine).

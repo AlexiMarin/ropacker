@@ -1,5 +1,6 @@
 //! ropacker: carpetas de Luau -> lugar de Roblox (.rbxlx) -> Open Cloud (publicar, reiniciar, correr Luau).
 
+pub mod cli;
 pub mod cloud;
 pub mod config;
 pub mod rbxlx;
